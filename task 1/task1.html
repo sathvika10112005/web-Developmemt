@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset=<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Webpage with Interaction</title>
+  <style>
+    /* CSS Styling Section */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #2e8b57;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .alert-button {
+      display: block;
+      margin: 30px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .alert-button:hover {
+      background-color: #246b45;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Webpage</h1>
+  <p>Click the button below to see a message.</p>
+  <button class="alert-button" onclick="showMessage()">Click Me</button>
+
+  <script>
+    // JavaScript Interaction
+    function showMessage() {
+      alert("Hello! This is your alert message.");
+    }
+  </script>
+
+</body>
+</html>
